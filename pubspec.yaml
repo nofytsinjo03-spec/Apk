@@ -1,0 +1,20 @@
+name: vonona
+description: Application de préparation aux concours de la Police malgache (EAP, EIP, EOP, ECP).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1        # Polices Oswald / Source Sans 3
+  provider: ^6.1.2            # Gestion d'état simple (niveau choisi, statut abonnement...)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
